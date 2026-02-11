@@ -29,7 +29,7 @@ class RidePrefsTile extends StatelessWidget {
       trailing: Icon(
         Icons.arrow_forward_ios,
         color: BlaColors.iconLight,
-        size: 16,
+        size: BlaSize.icon,
       ),
     );
   }

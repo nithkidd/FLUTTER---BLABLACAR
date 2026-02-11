@@ -21,7 +21,9 @@ class RidePrefsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [_buildBackground(), _buildForeground()]);
+    return Scaffold(
+      body: Stack(children: [_buildBackground(), _buildForeground()]),
+    );
   }
 
   Widget _buildForeground() {
