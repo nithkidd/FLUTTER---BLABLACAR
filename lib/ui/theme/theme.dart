@@ -55,7 +55,10 @@ class BlaTextStyles {
   static TextStyle button =  TextStyle(fontSize: 14, fontWeight: FontWeight.w500);
 }
 
-
+//need size for neccesary items
+class BlaSize {
+  static const double icon = 20;
+}
 
 ///
 /// Definition of App spacings, in pixels.

@@ -19,6 +19,11 @@ class Location {
   final Country country;
 
   const Location({required this.name, required this.country});
+  
+  // to copy constructor
+  Location.copy(Location other)
+      : name = other.name,
+        country = other.country;
 
   @override
   bool operator ==(Object other) {
