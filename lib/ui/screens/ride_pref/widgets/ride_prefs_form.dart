@@ -50,8 +50,6 @@ class _RidePrefFormState extends State<RidePrefForm> {
     } else {
       departureDate = DateTime.now();
       requestedSeats = 1; // seat will be 1 by default value
-      departure = null;
-      arrival = null;
     }
   }
 
